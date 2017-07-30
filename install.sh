@@ -22,6 +22,10 @@ sudo apt-get install libavahi-compat-libdnssd-dev -y
 echo "Run the Npm updater"
 npm install npm@latest -g
 
+echo "Fix the Node global location"
+sleep 1
+ln -s /usr/bin/nodejs /usr/bin/node
+
 sleep 1
 echo "Done"
 
