@@ -19,6 +19,9 @@ sudo apt-get install build-essential libssl-dev -y
 echo "Also adding some plugins that may assist NPM"
 sudo apt-get install libavahi-compat-libdnssd-dev -y
 
+echo "Run the Npm updater"
+npm install npm@latest -g
+
 sleep 1
 echo "Done"
 
